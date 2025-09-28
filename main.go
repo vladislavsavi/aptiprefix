@@ -17,7 +17,7 @@ func main() {
 	flag.Usage = func() {
 		fmt.Fprintf(os.Stderr, "Использование: %s --prefix <значение>\n", os.Args[0])
 		fmt.Fprintln(os.Stderr, "Удаляет заданный префикс из имен файлов в текущей директории.")
-		fmt.Fprintln(os.Stderr, "Пример: rename --prefix ef3e_beg_")
+		fmt.Fprintln(os.Stderr, "Пример: antiprefix --prefix ef3e_beg_")
 		fmt.Fprintln(os.Stderr, "\nФлаги:")
 		flag.PrintDefaults()
 	}
